@@ -1,27 +1,9 @@
-# balanceplanner
-# 💰 AI Budget Planner
+# Budget Planner with Recurring Payments
 
-An **AI-powered Budget Planner** built with **Streamlit** that helps you track your expenses, manage categories, and visualize your spending habits.  
-The app uses **Pandas** for data handling and stores your budget/expenses in a CSV file.
+This is a simple Streamlit-based Budget Planner app that supports recurring payments. It uses SQLite to store transactions and recurring rules. Run `streamlit run app.py` inside the `budget_planner` folder.
 
----
+Files:
+- `app.py` - Streamlit application
+- `db.py` - Simple SQLite helper functions
+- `budget.db` - created automatically on first run
 
-## 📌 Features
-- **Add & Track Expenses**: Quickly log expenses with amount, category, and description.
-- **Budget Management**: Set monthly budgets for different categories.
-- **Data Storage**: Automatically saves your entries in a CSV file for persistence.
-- **Visual Reports**: Interactive charts to analyze spending patterns.
-- **Clean UI**: User-friendly design powered by Streamlit.
-
----
-
-## 🛠️ Tech Stack
-- **Python 3.8+**
-- **Streamlit** (Frontend)
-- **Pandas** (Data Management)
-- **Matplotlib** (Charts/Graphs)
-- **CSV File Storage** (Persistent Data)
-
----
-
-## 📂 Project Structure
